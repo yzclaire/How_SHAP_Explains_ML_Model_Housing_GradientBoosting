@@ -7,6 +7,8 @@ This notebook intends to provide an overview of SHAP, a framework to improve mod
 - What SHAP can do?
 - How to use SHAP?
 
+Read this project [here](https://yzclaire.github.io/How_SHAP_Explains_ML_Model_Housing_GradientBoosting/)
+
 ### What SHAP is?
 Many frameworks have been proposed to help with improving the explainability and transparence of machine learning models. SHAP (SHapley Additive exPlanations) is one of the most popular frameworks that aims at providing explainability of machine learning algorithms.  SHAP takes a game-theory-inspired approach to explain the prediction of a machine learning model. The SHAP framework is now available in the open-source python library, SHAP, for everyone wants to understand how their models make prediction (“uncovering the blackbox”). 
 
@@ -43,7 +45,9 @@ The Shap values computed by SHAP library is in the same unit of the model output
 
 
 ### Example SHAP Plots
-To create example SHAP plots (see belows), I am using the [California Housing Prices](https://www.kaggle.com/camnugent/california-housing-prices) dataset from Kaggle and built a binary classification model(GradientBoostingClassifier from scikit-learn). The original target variable median_house_price (continuous) is converted to a categorical variable price_high_low (label 0 or 1), indicating the median_house_price is above 50 percentile or below 50 percentiles. The model is trained to classifier whether a house is at the higher price range or lower price range.
+To create example SHAP plots, I am using the [California Housing Prices](https://www.kaggle.com/camnugent/california-housing-prices) dataset from Kaggle and built a binary classification model(GradientBoostingClassifier from scikit-learn). The original target variable median_house_price (continuous) is converted to a categorical variable price_high_low (label 0 or 1), indicating the median_house_price is above 50 percentile or below 50 percentiles. The model is trained to classifier whether a house is at the higher price range or lower price range.
+
+[Project](https://yzclaire.github.io/How_SHAP_Explains_ML_Model_Housing_GradientBoosting/)
 
 
 ### SHAP library
